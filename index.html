@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-div">
+            <button class="add-btn" id="btnAdd">Add Product</button>
+            <button class="get-btn" id="btnGet">Get Product</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sno no</th>
+                        <th>Name</th>
+                        <th>Number</th>
+                    </tr>
+                </thead>
+                <tbody id="tBody">
+                    <tr>
+                        <td>
+                            <input type="text" class="emp-no" id="empNo" value="1" readonly>
+                        </td>
+                        <td>
+                            <input type="text" class="emp-name" id="empName">
+                        </td>
+                        <td>
+                            <input type="text" class="emp-num" id="empNum">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="pop-up">
+        <div class="close-icon-div">
+            <span class="closs"></span>
+            <span class="closs"></span>
+        </div>
+        <div class="product-add">
+            <div class="pro-nam">
+                <label for="addName">Product Name:</label>
+                <input type="text" class="pro-name" id="addName">
+            </div>
+            <div class="pro-num">
+                <label for="addNum">Product Value:</label>
+                <input type="text" class="pro-value" id="addValue">
+            </div>
+            <button class="product-add-btn" id="productAddBtn">Add</button>
+        </div>
+    </div>
+    <div class="productTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Value</th>
+                </tr>
+            </thead>
+            <tbody id="productTableBody">
+                <tr>
+                    <td>sample</td>
+                    <td>value</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
