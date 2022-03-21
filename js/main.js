@@ -211,3 +211,4 @@ $("#btnGet").click(function() {
 var testObject = [];
 // function call
 onpageLoad();
+console.log("hello world");
